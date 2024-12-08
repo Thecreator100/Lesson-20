@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope of Variables in Javascript</title>
+</head>
+<body>
+    <h2>Scope of variables in Functions</h2>
+    <button> Click Here </button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        var a =5;
+        
+        function product(){
+            var b=6;
+
+            document.write(a*b);
+        }
+        
+        document.getElementById("demo").innerHTML = a;
+
+
+    </script>
+</body>
+</html>
